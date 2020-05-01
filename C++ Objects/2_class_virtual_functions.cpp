@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <iostream>
 
-using namespace std;
+using std::cout;
+using std::endl;
 
 class Ex2
 {
 	int var1;
 
 public:
-		virtual int get_sum(int x, int y){
+		virtual int sum(int x, int y){
 			return x+y;
 		}
 
@@ -18,9 +19,8 @@ public:
 };
 
 int main(int argc, char ** argv, char **envp) {
-	
 	Ex2 *e = new Ex2();
-	e->get_sum(1,2);
+	e->sum(1,2);
 	e->reset_values();
 	delete(e);
 }
