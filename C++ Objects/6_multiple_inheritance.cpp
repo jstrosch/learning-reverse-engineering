@@ -1,69 +1,56 @@
 #include <stdio.h>
 #include <iostream>
 
-using namespace std;
+using std::cout;
+using std::endl;
 
 class Ex2
 {
-	int var1;
+	private:
+		int var1;
 
-public:
-		Ex2(){
-			var1 = 222;
-		}
-		virtual int get_sum(int x, int y){
+	public:
+		virtual int sum(int x, int y){
 			return x+y;
 		}
 
-		virtual void reset_values(){
-			var1 = 0;
+		virtual void virtual_func1(){
+			cout << "Ex2->virtual_func1" << endl;
 		}
 };
 
 class Ex4
 {
-	int var1;
-	int var2;
-
-public:
-	Ex4() {
-		var1 = 333;
-		var2 = 3332;
-	}
-	virtual void func1() {
-		printf("Ex4 func1");
-	}
-
-	virtual void func2() {
-		printf("Ex4 func2");
-	}
+	public:		
+		virtual void virtual_func2() {
+			cout << "Ex4->virtual_func1" << endl;
+		}
 };
 
 class Ex5: public Ex2, public Ex4
 {
-	int var1;
+	private:
+		int var1;
+		int var2;
 
-public:
-	Ex5() {
-		var1 = 555;
-	}
-	void func1() {
-		printf("EX5 func1");
-	}
-	virtual void v_ex5() {
-		printf("EX5 v_ex5");
-	}
-
-	void get_values();
+	public:
+		Ex5() {
+			var1 = 1;
+			var2 = 2;
+		}
+		virtual void virtual_func3() {
+			cout << "Ex4->virtual_func3" << endl;
+		}
+		virtual void virtual_func2(){
+			cout << "Ex4->virtual_func2" << endl;
+		}
 };
 
 int main(int argc, char ** argv, char **envp) {
 	
 	Ex5 *e = new Ex5();
-
-	e->v_ex5();
-
-	e->func2();
-
+	e->virtual_func1();
+	e->virtual_func2();
+	e->virtual_func3();
 	delete(e);
 }
