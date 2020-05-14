@@ -23,7 +23,7 @@ class Ex4
 {
 	public:		
 		virtual void virtual_func2() {
-			cout << "Ex4->virtual_func1" << endl;
+			cout << "Ex4->virtual_func2" << endl;
 		}
 };
 
@@ -39,10 +39,10 @@ class Ex5: public Ex2, public Ex4
 			var2 = 2;
 		}
 		virtual void virtual_func3() {
-			cout << "Ex4->virtual_func3" << endl;
+			cout << "Ex5->virtual_func3" << endl;
 		}
 		virtual void virtual_func2(){
-			cout << "Ex4->virtual_func2" << endl;
+			cout << "Ex5->virtual_func2" << endl;
 		}
 };
 

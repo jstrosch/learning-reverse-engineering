@@ -30,7 +30,7 @@ class Ex3: public Ex2
 			return x - y;
 		}
 
-		virtual void virtual_func1(){
+		void virtual_func1(){
 			cout << "Ex3->virtual_func1" << endl;
 		}
 };
