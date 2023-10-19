@@ -1,0 +1,42 @@
+Microsoft (R) TTDRecord 1.01.11
+Release: 1.11.202.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+Initializing Time Travel Debugging for Launch of windbg.exe
+Time: 10/18/2023 20:21:51
+OS:10.0.19045 EDITION:x64
+
+SessionID: E4E900A0-981A-4B7B-8DBB-2ED01A108765
+
+   (TTD::ManageTTDTrace:2753)
+Running windbg.exe
+   (TTD::StartGuestProcess:1519)
+Group tracing GUID: 7F689987-B02E-4CB4-8072-C6DEEEC03FCE
+
+Running "C:\Program Files\WindowsApps\Microsoft.TimeTravelDebugging_1.11.202.0_x64__8wekyb3d8bbwe\x86\TTDInject.exe" /duration 0 /InjectMode EmulatorForRecording /ClientParams "48 C:\Users\James Holden\Desktop\ms-ex\windbg01.run 0 0 0 0 0 0 1 0 c06001 0" /RecordScenario 268435457 /attach 404 /SuspendedAtLaunch -TraceFileHandle 14 -GuestEventHandle 18 -ClientEventHandle 1c -ActiveEventHandle 20 -MutexHandle 24 -CommunicationBufferHandle 28 -SharedSequenceMutexHandle 2c -SharedSequenceBufferHandle 30 /TelemetryFeatureSessionId "E4E900A0-981A-4B7B-8DBB-2ED01A108765"
+   (TTD::StartGuestProcess:1995)
+Microsoft (R) TTDInject 1.01.11
+Release: 1.11.202.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+TTDLoader Params:
+ LauncherDll = TTDRecordCPU
+ ClientDll   = TTDRecordCPU
+ ClientEntry = InitializeNirvanaClient
+ ClientParams= 48 C:\Users\James Holden\Desktop\ms-ex\windbg01.run 0 0 0 0 0 0 1 0 c06001 0
+ SuspendedAtLaunch
+WaitForMain is on
+Allocated processors:32, running threads:1.
+Loader TTDRecordCPU.dll injected at 0x75480000 0x161000 -- .reload  TTDRecordCPU.dll=0x75480000,0x161000
+
+Injection by thread is complete.
+RecordingEngine initialization successful.
+RecordVcpu initialization successful.
+Loader initialization successful.
+Guest Process is x86 binary.
+Guest process exited with exit code 20
+Simulation time of 'windbg.exe' (x86): 219ms.
+Tracing completed at: Thu Oct 19 01:21:52 2023 (UTC) Wed Oct 18 20:21:52 2023 (Local)
+
+Trace dumped to C:\Users\James Holden\Desktop\ms-ex\windbg01.run
