@@ -14,6 +14,10 @@ I discuss many of these programs through online videos and courses and you may f
 
 - Essential Elements of the Portable Executable (PE) file - [YouTube playlist](https://www.youtube.com/playlist?list=PLHJns8WZXCdstHnLaxcz-CO74fO4Q88_8)
 
+## Other Tools Here You May Find Helpful
+
+- [sclauncher](shellcode/): A shellcode launcher and debugging tool
+
 ## Compiling the Source Code
 
 These programs are intended to be compiled with the C/C++ compiler from Microsoft. You can use the `Developer Command Prompt` after installing the free/community version to compile using `cl`. An example of this command would be:
