@@ -6,7 +6,7 @@ char hexcc[1] = {0x90};
 char shellcode[1] = ""; //use this as a byte array to load shellcode. Example: char shellcode[2] = "\x55\xEB"
 
 void usage(void) {
-	puts("[~] Simple shellcode launcher and debugger! This program can read shellcode from a file or use an internal array.");
+	puts("[~] Simple shellcode launcher and debugger! This program can read 32-bit shellcode from a file or use an internal array.");
 	puts("[~] Usage: sclauncher.exe [-f=shellcode.bin] [-o=INT] [-bp]");
 	puts("\t-f: path to file to load shellocode. If you don't provide a file, \n\t\t it will check for an internal array - see source code.");
 	puts("\t-bp: insert a breakpoint before the shellcode, only use if debugging");

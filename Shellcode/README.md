@@ -1,6 +1,6 @@
 # SCLauncher - Basic Shellcode Tester and Debugger
 
-This program is designed to load shellcode and allow for execution or debugging. The provided binary can be found in the `binaries` folder with a SHA 256 of `8fe5bd48daa90fe4be9321244912d23e0ede5010d4ea72a66c66fabe66c03d2e`.
+This program is designed to load 32-bit shellcode and allow for execution or debugging. The provided binary can be found in the `binaries` folder with a SHA 256 of `8fe5bd48daa90fe4be9321244912d23e0ede5010d4ea72a66c66fabe66c03d2e`.
 
 <img src="help.png">
 
