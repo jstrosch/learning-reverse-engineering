@@ -16,7 +16,7 @@ This will produce the exectuable ```sclauncher.exe```.
 
 ## Executing Shellcode From a File
 
-You can use the ```-f``` argument to define a path to a file that contains shellcode. This will be copied into memory and executed. Additionally, you can use the ```-o``` argument to adjust the entry point by X bytes. This allows for shellcode that does not begin execution at the beginning of the binary blob. Finally, ```-bp``` determines if a breakpoint should be inserted before the shellcode. This will be done through a ```0xCC``` byte, which is an INT3. This allows you to run the program  under a debugginer, defining the command line arguments as appropriate. Inserting a breakpoint will allow the debugger to interrupt execution before the shellcode is executed. If you are *not* running under a debugger, do not insert a breakpoint as that will cause the program to crash.
+You can use the ```-f``` argument to define a path to a file that contains shellcode. This will be copied into memory and executed. Additionally, you can use the ```-o``` argument to adjust the entry point by X bytes. This allows for shellcode that does not begin execution at the beginning of the binary blob. Finally, ```-bp``` determines if a breakpoint should be inserted before the shellcode. This will be done through a ```0xCC``` byte, which is an INT3. This allows you to run the program  under a debugger, defining the command line arguments as appropriate. Inserting a breakpoint will allow the debugger to interrupt execution before the shellcode is executed. If you are *not* running under a debugger, do not insert a breakpoint as that will cause the program to crash.
 
 ## Executing Shellcode From an Internal Array
 

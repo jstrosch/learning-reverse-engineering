@@ -55,7 +55,6 @@ int main(int argc, char **argv) {
 	}
 
 	if (strlen(file_path) > 0){
-		printf("[*] Loading shellcode from path: %s\n", file_path);
 		fp = fopen(file_path,"rb");
 
 		if (fp != NULL){
