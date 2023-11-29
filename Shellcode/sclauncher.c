@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char shellcode[10] = "\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0A"; //use this as a byte array to load shellcode. Example: char shellcode[2] = "\x55\xEB"
+char shellcode[10] = ""; //use this as a byte array to load shellcode. Example: char shellcode[2] = "\x55\xEB"
 
 void usage(void) {
 	puts("[~] Simple shellcode launcher and debugger! This program can read shellcode from a file or use an internal array.");
