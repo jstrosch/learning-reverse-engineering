@@ -1,6 +1,8 @@
 # Learning Assembly Series
 
-These files are designed to help with following with the `PC Assembly Book` authored by Dr Paul Carter - [https://pacman128.github.io/pcasm/](https://pacman128.github.io/pcasm/). I've also created a series of videos that roughly follow the book, you can find that playlist on [YouTube](https://www.youtube.com/playlist?list=PLHJns8WZXCdvESvdr1BRjo4RHiR1Ylhw9). 
+These files are designed to help with following with the `PC Assembly Book` authored by Dr Paul Carter - [https://pacman128.github.io/pcasm/](https://pacman128.github.io/pcasm/). I've also created a series of videos that roughly follow the book, you can find that playlist on YouTube.
+
+▶️ [Learning Assembly videos on YouTube](https://www.youtube.com/playlist?list=PLHJns8WZXCdvESvdr1BRjo4RHiR1Ylhw9)
 
 The following files are used to assemble programs:
 
