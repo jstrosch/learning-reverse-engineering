@@ -14,9 +14,9 @@ I discuss many of these programs through online videos and courses and you may f
 
 - Essential Elements of the Portable Executable (PE) file - [YouTube playlist](https://www.youtube.com/playlist?list=PLHJns8WZXCdstHnLaxcz-CO74fO4Q88_8)
 
-## Other Tools Here You May Find Helpful
+## Other Tools You May Find Helpful
 
-- [sclauncher](shellcode/): A shellcode launcher and debugging tool
+- [sclauncher](https://github.com/jstrosch/sclauncher): A shellcode launcher and debugging tool
 
 ## Compiling the Source Code
 
